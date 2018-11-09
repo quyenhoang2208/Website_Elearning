@@ -1,0 +1,54 @@
+//Background
+$bg-black: rgb(4,23,33);
+$bg-black-bar: rgba(4,23,33,0.3);
+$bg-color-darkorange:hsl(34, 56%, 45%);
+$bg-color-whitesmoke:rgb(247,247,247);
+$bg-whitesmoke:rgb(245,245,245);
+$bg-dark:rgb(34,34,34);
+//Color
+$color-white: white;
+$color-mediumseagreen: rgb(24,201,103);
+$color-black:rgb(4,23,33);
+$color-gray-bar: rgba(255,255,255,0.8);
+$color-gray:gray;
+$color-green:rgba(222, 236, 14, 0.466);
+$color-bar-1:rgba(0,0,0,0);
+$color-bar-2:hsla(0, 0%, 0%, 0.1);
+$color-bar-3:hsla(0, 0%, 100%, 0.9);
+$color-darkgray:rgb(164,164,164);
+
+//Line-height
+$line-height-0:20px;
+$line-height-1: 30px;
+//Font-size
+$fs-0: 0.8rem;
+$fs-1:1rem;
+//Font-weight
+$fw-0: 50px;
+//Letter-spacing
+$letter-spacing-0: 3px;
+$letter-spacing-1:5px;
+
+
+
+
+//footer
+
+$bg-darkki:rgb(27,27,27);
+$color-white:rgb(255,255,255);
+$color-peru:rgb(184,152,84);
+
+$color-dimgray:rgb(96,96,96);
+
+$fs-0:0.8rem;
+$fs-1:20px;
+$fs-2:50px;
+$fw-1:200;
+          
+$line-height-7:60px;
+
+
+$res_phone : "only screen and (min-width: 320px) and (max-width: 768px)";
+$res_ipad : "only screen and (min-width: 767px) and (max-width: 1054px)";
+$res_smalllap : "only screen and (min-width: 1024px) and (max-width: 1999px)";
+$res_biglap : "only screen and (min-width: 1200px)";

@@ -1,0 +1,94 @@
+@import '../Base/reset';
+@import '../Helpers/variables';
+
+
+
+
+
+
+
+
+
+
+.footer-dark{
+   
+    background-color:$bg-dark ;
+    color: $color-white;
+    
+    ul{
+        list-style: none;
+    }
+    p{
+        color: $color-dimgray;
+    }
+    h5{
+        font-weight: normal;
+        font-size: 1rem;
+
+    }
+    //Recent ports & Follow us
+    .recent-posts,.follow{
+        line-height: $line-height-7;
+        padding-bottom: 50px;
+        li{
+            border-bottom: 1px solid $color-dimgray;
+            a{
+                color: $color-dimgray;
+                text-decoration: none;
+                &:hover{
+                    color: $color-peru;
+                }
+            }
+            a::before{
+                padding-right: 15px;
+                content: "\f105";
+                font-family: "fontawesome";
+            }
+        }
+
+    }
+    
+    //Recent work
+    .recent-work{
+       
+        a{
+            float: left;
+            width: 55px;
+            height: 55px;
+            margin: 0 10px 10px 0;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .second-footer{
+        
+       padding: 15px 0;
+       border-top: 1px solid hsl(0, 0%, 17%);
+       background-color: $bg-darkki;
+       color: $color-dimgray;
+        .link-theme{
+            text-decoration: none;
+            color: $color-white;
+        }
+        ul{
+            display: flex;
+            margin-left: 50%;
+            li{
+               
+                padding: 0 10px;
+                a{
+                    i{
+                        font-size: 1.5rem;
+                        color: $color-white;
+                        &:hover{
+                            color: $color-peru;
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+}

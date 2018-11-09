@@ -1,0 +1,79 @@
+.nav-item a{
+    font-size: 20px;
+}
+.circle__item{
+    position: relative;
+    font-size: 20px;
+    bottom: 8px;
+}
+.circle__item::before{
+    content: "";
+    height: 1px;
+    width: 60px;
+    border: black 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+.section_item1a img{
+    height: 325px;
+    width: 100%;
+}
+.section_item1b{
+    padding: 25px;
+}
+.section_item2a img{
+    margin-top: -31px;
+    margin-left: -30px;
+}
+.section_item2b{
+    height: 350px;
+    width: 103.5%;
+}
+#section3{
+    margin-top: -56px;
+}
+.circle__item1{
+    position: relative;
+    font-size: 20px;
+    bottom: 8px;
+}
+.circle__item1::before{
+    content: "";
+    height: 1px;
+    width: 185px;
+    border: black 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 166px;
+    top: 50px;
+}
+
+.section_item4 .fa{
+    font-size: 60px;
+}
+.title_item4:hover{
+    color: #1ea69a;
+    font-weight: bold;
+}
+.carousel-item img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: white 5px solid;
+} 
+#carouselId{
+    background-color: teal;
+}
+.contact .fa{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #b8bec1;
+    font-size: 60px;
+    color: white;
+}
+// ----------------------------------------
+
+

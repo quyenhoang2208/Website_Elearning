@@ -1,0 +1,9 @@
+import 'jquery';
+import 'bootstrap';
+import 'popper.js';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../../node_modules/jquery/dist/jquery.min.js';
+import '../vendor/sticky.js';
+import '../scss/Pages/header.scss';
+import '../scss/Pages/footer.scss';
+import '../scss/Pages/aboutus.scss';

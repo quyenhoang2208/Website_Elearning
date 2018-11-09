@@ -1,0 +1,138 @@
+@import '../Base/reset';
+@import '../Helpers/variables';
+  .bgc{
+    background: #e9e9e9 ;
+  }
+  .error{
+      color: red;
+      margin-bottom: 15px;   
+  }
+  label{
+    font-size: 1rem;
+    line-height: 1em;
+  }
+  /* Pen Title */
+  .pen-title {
+    padding: 20px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    h1 {
+        margin: 0 0 20px;
+        font-size: 48px;
+        font-weight: 300;
+    }
+   
+  }
+  input{
+      border-radius: 6px;
+  }
+  
+ 
+  .form-module {
+    position: relative;
+    background: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    border-top: 5px solid $color-mediumseagreen;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    .form {
+        display: none;
+        padding: 50px;
+        h2{
+            font-size: 1.5rem;
+            margin-top: -20px;
+        }
+    }
+    .form:nth-child(2) {
+        display: block;
+    }
+    h2 {
+        margin: 0 0 20px;
+        color: $color-mediumseagreen;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+    }
+    input {
+        outline: none;
+        display: block;
+        width: 100%;
+        border: 1px solid #d9d9d9;
+        margin: 0 0 10px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        font-weight: 400;
+        transition: 0.3s ease;
+    }
+    input:focus {
+        border: 1px solid $color-mediumseagreen;
+        color: #333333;
+    }
+    button{
+        cursor: pointer;
+        background: $color-mediumseagreen;
+        width: 100%;
+        border: 0;
+        padding: 10px 15px;
+        color: #ffffff;
+        transition: 0.3s ease;
+        &:hover {
+            background: $color-mediumseagreen;
+        }
+    }
+    .toggle{
+        cursor: pointer;
+        background:$color-mediumseagreen;
+        width: 150px;
+        height: 30px;
+        margin: -5px 0 0;
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 30px;
+        .tooltip {
+            position: absolute;
+            display: block;
+            top:0;
+            width: auto;
+            padding: 5px;
+            font-size: 10px;
+            line-height: 1;
+            opacity: 1;
+            text-transform: uppercase;
+             span{
+                margin-right: 10px;
+              }
+        }
+
+    } 
+     
+   
+  }
+
+  
+  .form-module 
+  {
+    .cta {
+        background: #f2f2f2;
+        width: 100%;
+        padding: 15px 40px;
+        box-sizing: border-box;
+        color: #666666;
+        font-size: 12px;
+        text-align: center;
+      }
+  }
+  .form-module {
+    .cta{
+        a {
+            color: #333333;
+            text-decoration: none;
+          }
+    }
+  }
+   
+
+  
+
+  

@@ -1,0 +1,11 @@
+@mixin res_phone() {
+    @media #{$res_phone} {
+        @content;
+    }
+}
+
+@mixin res_ipad() {
+    @media #{$res_ipad} {
+        @content;
+    }
+}

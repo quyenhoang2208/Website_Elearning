@@ -1,0 +1,125 @@
+@import '../Base/reset';
+@import '../Helpers/variables';
+@import '../Helpers/extend';
+//Begin header
+.menu{
+    width: 100%;
+    position: absolute;
+    height: 30px;
+    margin-top: 20px;
+    .nav--dark{
+        z-index: 10;
+        width: 100%;
+        color: $color-white;
+        height: 60px;
+        .nav-item{
+            a{
+                transition: none;
+                font-size: 1.2rem;
+               
+             }
+        }
+        .menu-logo{
+            .navbar-caption{
+                text-decoration:none;
+            }
+            a{
+                transition: none;
+                font-size: 3rem;
+                font-weight: 20px;
+             }
+        }
+   
+        
+    }
+    .nav-fixed-top{
+        position:fixed;
+        top:0;
+        height: 70px;
+        z-index: 10;
+        background-color: $bg-black;
+        color: $color-white;
+        .nav-item{
+            a{
+                transition: all .8s;
+                font-size: 1rem;
+               
+             }
+        }
+        .menu-logo{
+           
+           a{
+              transition: all .8s;
+              font-size: 1.8rem;
+              font-weight: 8px;
+           }
+        }
+      
+    }
+   
+}
+.nav-item{
+
+    //login
+    .login{
+        color: $color-white;
+        text-decoration: none;
+    }
+    .blueplay{
+        padding: 8px 12px 8px 0;
+        border: 1px solid $color-mediumseagreen;
+        border-radius: 5px;
+
+    }
+    .blueplay::before{
+        content: "\25b6";
+        display: inline-block;
+        margin: 0 8px 0 10px;
+        position: relative;
+        bottom: 1px;
+        color:$color-mediumseagreen;
+    }
+    //register
+
+    .register{
+        background-color: $color-mediumseagreen;
+        color:$color-white;
+    }
+}
+//End header
+//Begin carousel
+
+.wap-overlay{
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: .6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+.slider-fullscreen-image{
+    height: 670px;
+}
+.image_wrapper{
+    img{
+        width: 100%!important;
+        border: none!important;
+        height: 100%!important;
+        border-radius: 0%!important;
+    }
+}
+// End carousel
+
+
+//Thay đổi header cho trang khóa học
+.changeCourse{
+   height: 0!important;
+    margin-top:0!important;
+    position: initial!important;
+}
+.navChangeCourse{
+    background-color: $bg-black!important;
+    height: 70px!important;
+}
